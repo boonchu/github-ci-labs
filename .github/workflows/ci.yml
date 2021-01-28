@@ -37,5 +37,6 @@ jobs:
         image: boonchu/java-spring-demo
         tags: v1, latest
         registry: docker.io
+        directory: /home/runner/work/github-ci-labs/github-ci-labs
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
