@@ -1,7 +1,7 @@
 FROM gradle:jdk8
 COPY . /java-demo
 WORKDIR /java-demo
-RUN ./gradlew build
+RUN chmod +x ./gradlew && ./gradlew build
 
 FROM openjdk:8-jre-alpine
 EXPOSE 8080
