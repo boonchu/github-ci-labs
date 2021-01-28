@@ -4,6 +4,15 @@
 
   - Append Jenkinsfile and script.groovy
 
+#### Understanding pipelines
+
+  - https://github.com/jenkinsci/pipeline-plugin/blob/master/TUTORIAL.md
+
+##### Testing multi-branched pipelines
+
+  - https://gitlab.com/nanuchi/techworld-js-docker-demo-app/-/tree/jenkins-multi-input
+  - https://www.youtube.com/watch?v=MY1w7sWW5ms
+  - https://www.youtube.com/watch?v=CmwTPxdx24Y
 
 ##### Understanding groovy syntax 
 
@@ -19,12 +28,18 @@ source ~/.sdkman/bin/sdkman-init.sh && sdk install groovy
 
 ##### build the project
 
-    ./gradlew build
+```
+./gradlew build
+```
 
 ##### build Docker image called java-app. Execute from root
 
-    docker build -t java-app .
+```
+docker build -t java-demo-app .
+```
     
 ##### push image to repo 
 
-    docker tag java-app demo-app:java-1.0
+```
+docker tag java-demo-app java-demo-app:v1
+```
