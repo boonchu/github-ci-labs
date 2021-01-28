@@ -13,6 +13,14 @@
   - https://gitlab.com/nanuchi/techworld-js-docker-demo-app/-/tree/jenkins-multi-input
   - https://www.youtube.com/watch?v=MY1w7sWW5ms
   - https://www.youtube.com/watch?v=CmwTPxdx24Y
+  - https://www.youtube.com/watch?v=L9Ite-1pEU8
+
+```
+# Configure multi-branched pipeline with this feature branch
+git repo: https://github.com/boonchu/github-ci-labs/tree/feature-1
+
+# Allow docker containers instance to run gradle build
+```
 
 ##### Understanding groovy syntax 
 

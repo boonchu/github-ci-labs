@@ -2,11 +2,12 @@
 
 def buildApp() {
     echo 'building the application...'
-    sh './gradlew build'
+    sh 'docker build -t boonchu/java-spring-demo .'
 } 
 
 def testApp() {
     echo 'testing the application...'
+    sh './gradlew test'
 } 
 
 def deployApp() {
