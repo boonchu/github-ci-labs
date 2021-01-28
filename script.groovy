@@ -1,5 +1,6 @@
 def buildApp() {
     echo 'building the application...'
+    ./gradlew build
 } 
 
 def testApp() {
