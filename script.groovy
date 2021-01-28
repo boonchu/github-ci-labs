@@ -1,6 +1,12 @@
+#!/usr/bin/env groovy
+
 def buildApp() {
     echo 'building the application...'
-    ./gradlew build
+    String command = "sh ./gradlew build"
+    def proc = command.execute()
+    StringBuffer sout = new StringBuffer(), serr = new StringBuffer()
+    proc.consumeProcessOutput(sout, serr)
+    proc.waitForOrKill(15000)
 } 
 
 def testApp() {
