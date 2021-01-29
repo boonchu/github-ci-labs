@@ -1,4 +1,4 @@
-FROM gradle:jdk8
+FROM gradle:jdk8 as build
 COPY . /java-demo
 WORKDIR /java-demo
 RUN chmod +x ./gradlew && ./gradlew build
