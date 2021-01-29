@@ -2,7 +2,6 @@
 
 def buildApp() {
     echo 'building the application...'
-    # sh 'docker build -t boonchu/java-spring-demo .'
     docker.withServer('tcp://192.168.60.60:2375') {
        def testImage = docker.build("boonchu/java-spring-demo")
     }
