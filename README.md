@@ -8,6 +8,11 @@
 
   - https://github.com/jenkinsci/pipeline-plugin/blob/master/TUTORIAL.md
 
+##### Docker in Docker
+
+  - https://itnext.io/docker-inside-docker-for-jenkins-d906b7b5f527 (Docker-in-Docker)
+  - https://www.jenkins.io/doc/book/pipeline/docker/
+
 ##### Testing multi-branched pipelines
 
   - https://gitlab.com/nanuchi/techworld-js-docker-demo-app/-/tree/jenkins-multi-input
