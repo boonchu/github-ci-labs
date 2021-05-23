@@ -13,6 +13,11 @@
   - https://itnext.io/docker-inside-docker-for-jenkins-d906b7b5f527 (Docker-in-Docker)
   - https://www.jenkins.io/doc/book/pipeline/docker/
 
+##### Multi-Staged Build in Docker
+
+  - https://medium.com/@tonistiigi/advanced-multi-stage-build-patterns-6f741b852fae
+  - https://medium.com/capital-one-tech/multi-stage-builds-and-dockerfile-b5866d9e2f84
+
 ##### Testing multi-branched pipelines
 
   - https://gitlab.com/nanuchi/techworld-js-docker-demo-app/-/tree/jenkins-multi-input
